@@ -4,6 +4,7 @@ import InventoryList from './InventoryList';
 import NewInventoryItem from './NewInventoryItem'
 import * as actions from './actions/inventoryItemsActions'
 import {bindActionCreators} from 'redux'
+
 class App extends Component {
    constructor(props) {
     super(props);
@@ -15,6 +16,7 @@ class App extends Component {
   }
 
   render() {
+    debugger
     return (
       <div className="App">
         <div className="App-header">
