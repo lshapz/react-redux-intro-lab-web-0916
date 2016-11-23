@@ -5,6 +5,7 @@ export default function NewInventoryItem(props){
     const quant = event.target.children[1].value
     const desc = event.target.children[3].value
     props.triggerCreateItem(quant, desc)
+    debugger
 
   }
 

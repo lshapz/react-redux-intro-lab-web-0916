@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   render() {
-    debugger
+//    debugger
     return (
       <div className="App">
         <div className="App-header">
@@ -30,6 +30,7 @@ class App extends Component {
 }
 
 function mapStateToProps(state) {
+  // debugger
   return {inventoryListItems: state.inventoryListItems}
 }
 
