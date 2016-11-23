@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   render() {
-//    debugger
+ 
     return (
       <div className="App">
         <div className="App-header">
@@ -30,8 +30,8 @@ class App extends Component {
 }
 
 function mapStateToProps(state) {
-  // debugger
-  return {inventoryListItems: state.inventoryListItems}
+  
+  return {inventoryListItems: state.inventoryItemsReducer}
 }
 
 function mapDispatchToProps(dispatch) {
