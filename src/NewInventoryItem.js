@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 export default function NewInventoryItem(props){
   function submitItemForm(event){
     event.preventDefault()
@@ -10,9 +10,10 @@ export default function NewInventoryItem(props){
 
 return(
   <form onSubmit={submitItemForm}>
-    <label>QUANT</label><input type="text" id="quantity" />
-    <label>DESCRIPTION</label><input type="text" id="description" />
-   <input type="button" /> 
+<p>    <label>QUANT</label><input type="text" id="quantity" /></p>
+<p>    <label>DESCRIPTION</label><input type="text" id="description" /></p>
+  <input type="text" id="why" />
+<p>   <button type="submit">SUBMIT</button> </p>
   </form>
   )
 
